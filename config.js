@@ -1,26 +1,26 @@
-var config_local = {
+//var config_local = {
     // Customer module configs
-    "db": {
-        "server": "postgres://postgres:postgres@127.0.0.1",
-        "database": "vulnerablenode"
-    }
-}
+//   "db": {
+//        "server": "postgres://postgres:postgres@127.0.0.1",
+//        "database": "vulnerablenode"
+//    }
+//}
 
-var config_devel = {
+//var config_devel = {
     // Customer module configs
-    "db": {
-        "server": "postgres://postgres:postgres@10.211.55.70",
-        "database": "vulnerablenode"
-    }
-}
+//    "db": {
+//        "server": "postgres://postgres:postgres@10.211.55.70",
+//       "database": "vulnerablenode"
+//    }
+//}
 
-var config_docker = {
+//var config_docker = {
     // Customer module configs
-    "db": {
-        "server": "postgres://postgres:postgres@postgres_db",
-        "database": "vulnerablenode"
-    }
-}
+//    "db": {
+//        "server": "postgres://postgres:postgres@postgres_db",
+//        "database": "vulnerablenode"
+//    }
+//}
 
 // Select correct config
 var config = null;
